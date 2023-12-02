@@ -93,4 +93,4 @@ readseg(uchar* pa, uint count, uint offset)
   // we load in increasing order.
   for(; pa < epa; pa += SECTSIZE, offset++)
     readsect(pa, offset);
-}
+}   
